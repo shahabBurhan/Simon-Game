@@ -1,0 +1,76 @@
+/* google fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+/* <------------------------------------------------------------------------------------- ELEMENT SELECTORS -------------------------------------------------------------------------------------> */
+
+body {
+  font-family: "Press Start 2P", cursive;
+  background-color: rgb(1, 31, 63);
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #f6efb8;
+}
+
+button {
+  margin-right: 1.5vw;
+  padding: 100px;
+  border-radius: 42px;
+  border: 10px solid black;
+}
+
+/* <------------------------------------------------------------------------------------- CLASS SELECTORS -------------------------------------------------------------------------------------> */
+
+.heading-container {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.button-container {
+  width: 50vw;
+  margin: 6vh auto;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.fail {
+  background-color: red;
+}
+
+.endw {
+  color: white;
+  margin-top: 15vh;
+}
+
+@media (max-width: 425px) {
+  button {
+    margin-right: 1.5vw;
+    padding: 20px;
+    border-radius: 42px;
+    border: 10px solid black;
+  }
+  h1 {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 12px;
+  }
+}
